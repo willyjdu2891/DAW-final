@@ -33,20 +33,19 @@ body {
   background: rgba(100, 100, 100, 0.3);
 }
 
-.t {
+/*.t {
   font-size: 2em;
-}
-
+}*/
 .timeis {
   width: 100%;
   padding: 10px;
-  font-size: 3em;
-}
+  font-size: 2em;
+} 
 
-.desperta {
+/*.desperta {
   position: relative;
   top: 20px;
-}
+}/*
 
 /*button {
   margin: 10px;
@@ -56,11 +55,11 @@ body {
   font-weight: bold;
 } */
 
-.obs {
+/*.obs {
   position:relative;
   top: 150px;
   color: white;
-}
+}*/
 
 .iframe{
     width: 0;
@@ -69,9 +68,18 @@ body {
     
 }
 
+button{
+    width:50%;
+    margin-bottom:30%;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+/*style="width:auto; height:100%; margin-bottom: 3px;*/
 
  
-/*@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
  
     
     .timeis{
@@ -94,7 +102,8 @@ body {
     }
     
     
-}
+    
+} */
 /***************************************************************************************************************** POP UP*********************************************************************************************/
 
 .popup {
