@@ -1,0 +1,154 @@
+
+* {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.label{
+    margin-top: -50px;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://images3.alphacoders.com/690/thumb-1920-69009.jpg);
+height: 100vh;
+background-size: cover;
+background-position:center;
+background-attachment: fixed;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+body {
+  background: #afafb1;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  animation: all .7s;
+}
+
+
+
+.contenedor {
+  margin: 5%;
+  padding: 10px;
+  background: rgba(100, 100, 100, 0.3);
+}
+
+.t {
+  font-size: 2em;
+}
+
+.timeis {
+  width: 100%;
+  padding: 10px;
+  font-size: 3em;
+}
+
+.desperta {
+  position: relative;
+  top: 20px;
+}
+
+/*button {
+  margin: 10px;
+  padding: 5px;
+  background: grey;
+  border: solid 1px grey;
+  font-weight: bold;
+} */
+
+.obs {
+  position:relative;
+  top: 150px;
+  color: white;
+}
+
+.iframe{
+    width: 0;
+    height: 0;
+    border: 0;
+    
+}
+
+
+ 
+/*@media screen and (max-width: 600px) {
+ 
+    
+    .timeis{
+        font-size: 2em;
+    }
+    .contenedor{
+       margin-top: -2px; 
+    }
+    
+    .desperta{
+        margin-top: -20px;
+    }
+    .wtime{
+        font-size: 1em
+    }
+   
+   header button {
+        width: 2%;
+        height: auto;
+    }
+    
+    
+}
+/***************************************************************************************************************** POP UP*********************************************************************************************/
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
